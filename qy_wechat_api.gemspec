@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["huaitao-deng@foxmail.com"]
   spec.summary       = %q{企业微信高级API Ruby版本}
   spec.description   = %q{企业微信高级API Ruby版本}
-  spec.homepage      = "https://github.com/lanrion/qy_wechat_api"
+  spec.homepage      = "https://github.com/zk2435/qy_wechat_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
