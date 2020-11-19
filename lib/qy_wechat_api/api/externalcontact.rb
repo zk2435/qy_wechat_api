@@ -16,8 +16,6 @@ module QyWechatApi
       #获取外部联系人详情
       def get(id)
         http_get("get", {external_userid: id})
-
-
       end
 
       private
