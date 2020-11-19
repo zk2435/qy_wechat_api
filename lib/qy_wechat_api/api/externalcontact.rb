@@ -8,6 +8,18 @@ module QyWechatApi
         http_get("get_follow_user_list")
       end
 
+      #获取外部联系人的id
+      def list(id)
+        http_get("list", {userid: id})
+      end
+
+      #获取外部联系人详情
+      def get(id)
+        http_get("get", {external_userid: id})
+
+
+      end
+
       private
         def base_url
           "/externalcontact"
