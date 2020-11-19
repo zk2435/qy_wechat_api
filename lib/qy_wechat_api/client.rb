@@ -39,6 +39,10 @@ module QyWechatApi
       Api::User.new(get_access_token)
     end
 
+    def externalcontact
+      Api::Externalcontact.new(get_access_token)
+    end
+
     # 管理标签API
     def tag
       Api::Tag.new(get_access_token)
