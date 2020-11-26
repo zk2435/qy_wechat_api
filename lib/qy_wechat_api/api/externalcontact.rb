@@ -18,6 +18,11 @@ module QyWechatApi
         http_get("get", {external_userid: id})
       end
 
+      def get_by_user(id)
+        http_post("batch",{userid: id})
+
+      end
+
       private
         def base_url
           "/externalcontact"
