@@ -19,7 +19,7 @@ module QyWechatApi
       end
 
       def get_by_user(id)
-        http_post("batch",{userid: id})
+        http_post("batch/get_by_user",{userid: id})
 
       end
 
