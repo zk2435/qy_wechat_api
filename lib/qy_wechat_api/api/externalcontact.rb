@@ -18,8 +18,8 @@ module QyWechatApi
         http_get("get", {external_userid: id})
       end
 
-      def get_by_user(id)
-        http_post("batch/get_by_user",{userid: id})
+      def get_by_user(id,cursor)
+        http_post("batch/get_by_user",{userid: id, cursor: cursor, limit: 2})
 
       end
 
