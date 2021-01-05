@@ -1,3 +1,3 @@
 module QyWechatApi
-  VERSION = "1.0.4.beta1"
+  VERSION = "1.0.5.beta2"
 end

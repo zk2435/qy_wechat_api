@@ -44,6 +44,10 @@ module QyWechatApi
         http_get("get", {userid: id})
       end
 
+      def getuserinfo(code)
+        http_get("getuserinfo",{code: code})
+      end
+
       # 获取部门成员
       # department_id 是 获取的部门id
       # fetch_child 否 1/0：是否递归获取子部门下面的成员
